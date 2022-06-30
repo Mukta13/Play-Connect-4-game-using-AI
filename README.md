@@ -8,17 +8,30 @@ python main.py -p1 randomAI -p2 monteCarloAI
 
 My evaluation function looks like this:
 
-def evaluation(self, board): eval =0
+def evaluation(self, board): 
+
+eval =0
+
 col = [row[3] for row in board] 
+
 eval += col.count(self.position)*5 
+
 col = [row[4] for row in board] 
+
 eval += col.count(self.position)*3 
+
 col = [row[2] for row in board] 
+
 eval += col.count(self.position)*3
+
 return eval
 
 By attaching values to locations, my evaluation function is able to return a linear weighted sum that is used to order terminal nodes as the true utility would correlate with chances of winning:
+
 eval(s) += col.count(self.position)*weight
+
 s = board state that is being evaluated
+
 col = the specific column from the board self.position = the current player
+
 weight = the weight assigned to the final count
