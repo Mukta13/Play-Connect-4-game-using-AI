@@ -1,4 +1,4 @@
-# Play-Connect-4-game-using-AI<img width="696" alt="Screenshot 2022-02-17 at 2 46 18 PM" src="https://user-images.githubusercontent.com/61094541/176573875-f03ef1e1-2ebc-42ff-a3e5-11362086b38a.png">
+# Play-Connect-4-game-using-AI
 
 I have written a computer program to play the classic game Connect Four game to practice the AI minimax and heuristic algorithms. Connect Four is a tic-tac-toe variant played on a grid. Players alternate turns dropping coins into one of the seven different columns.As the name implies, the goal of Connect Four is to get four of your colored coins in a row, either horizontally, diagonally, or vertically. The first player to do so wins. If all locations are filled without a player getting four in a row, the game is a draw.
 
@@ -36,3 +36,5 @@ s = board state that is being evaluated
 col = the specific column from the board self.position = the current player
 
 weight = the weight assigned to the final count
+
+<img width="696" alt="Screenshot 2022-02-17 at 2 46 18 PM" src="https://user-images.githubusercontent.com/61094541/176573875-f03ef1e1-2ebc-42ff-a3e5-11362086b38a.png">
