@@ -3,9 +3,10 @@ I have written a computer program to play the classic game Connect Four game to 
 
 To run:
 The Connect Four program has several different command-line switches that you can use to control how the game is played. By default, the two players are human-controlled. You can choose which AI modules to use by using the -p1 and -p2 switches to select the AIModules to use as the first and second player. For example, to pit the randomAI player against the monteCarloAI player, you could use:
-#python main.py -p1 randomAI -p2 monteCarloAI
 
-#My evaluation function looks like this:
+python main.py -p1 randomAI -p2 monteCarloAI
+
+My evaluation function looks like this:
 
 def evaluation(self, board): eval =0
 col = [row[3] for row in board] 
